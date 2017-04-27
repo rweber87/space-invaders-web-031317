@@ -68,7 +68,7 @@ describe('space invaders', () => {
       spaceship = new Spaceship('The Krestel', [tristan, jon, katie], 5, 4)
     })
 
-    it('`docked` should return false for ships with a crew', function() {
+    it('`docked` should return false for`1 ships with a crew', function() {
       expect(spaceship.docked).toBe(false)
     })
 
